@@ -1,0 +1,38 @@
+.todo {
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px #222222 solid;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+     .block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      float: left;
+      height: 100%;}
+      
+     
+      .block.checkbox {
+        margin: 0;
+        width: 10%;
+      }
+      .block.title {
+        width: 40%;
+      }
+      .block.delete {
+        width: 30%;
+      color:red;}
+      .done {
+        color: red;
+      }
+       .no {
+         
+         font-size: medium;
+       }
+      
+    
+  
+  
